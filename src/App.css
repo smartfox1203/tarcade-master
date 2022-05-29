@@ -1,0 +1,237 @@
+
+.App{
+  height: 100vh;
+  margin: 0;
+  padding:0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+#first-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
+}
+
+#title {
+   max-width: 800px;
+  
+}
+
+#base-title {
+  max-width: 800px;
+ 
+}
+
+.playbutton {
+  background: url("../src/playbutton1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 136px;
+  height: 55px;
+  margin-top:50px;
+  margin-bottom: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.playbutton:hover {
+  background: url("../src/playbutton.png");
+  background-size: contain;
+}
+
+#browser {
+  min-height: 90vh;
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: stretch; */
+}
+
+#game-list {
+  padding: 20px;
+  height: 80vh;
+  order: 1;
+  flex: 1 1 0px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#game-window {
+  padding: 8px;
+  height: 80vh;
+  order: 2;
+  flex: 1 4 0px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game-window-fixed {
+  background-color: #1b262c;
+  width: 600px;
+  height: 550px;
+  padding: 5px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-game {
+  color: black;
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background-color: #ed6663;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.new-game:hover{
+  background-color: #ffa372;
+}
+
+#ad-margin {
+  padding: 8px;
+  order: 3;
+  align-self: center;
+  flex: 1 1 0px;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#game-list-fixed {
+  width: 130px;
+  height: 400px;
+  padding: 5px;
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#ad-fixed {
+  width: 130px;
+  height: 400px;
+  border-radius: 2px;
+  background-color: #1b262c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.tic-tac-toe-sign{
+  height: 30px;
+  width: 120px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-repeat: no-repeat;
+  background-image: url("../src/tictacttoesign.png") ;
+}
+
+.tic-tac-toe-sign:hover{
+  background-image: url("../src/tictacttoesignflash.png") 
+}
+
+.game-list-card:hover {
+  background-color: #ffa372;
+}
+
+#top-bar{
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer1 {
+  height: 50px;
+  width: 100px;
+  background-color: #1b262c;
+  order: 1;
+  flex: 2 1 auto;
+}
+
+.logo{
+  height: 100%;
+  width: 250px;
+  order: 2;
+
+}
+
+
+.spacer2 {
+  height: 50px;
+  width: 100px;
+  background-color: #1b262c;
+  order: 3;
+  flex: 5 1 auto;
+}
+
+
+.submarine-men-sign {
+  height: 30px;
+  width: 120px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-repeat: no-repeat;
+  background-image: url("../src/deepseaadventure.png") ;
+}
+
+.submarine-men-sign:hover {
+  background-image: url("../src/deepseaadventureflash.png") ;
+}
+
+.connect-4-sign{
+  height: 30px;
+  width: 120px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-repeat: no-repeat;
+  background-image: url("../src/connect4sign.png")
+}
+
+.connect-4-sign:hover{
+  background-image: url("../src/connect4signflash.png")
+}
+
+.go-sign {
+  height: 30px;
+  width: 120px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #ed6663;
+}
+
+.go-sign:hover {
+  background-color: #ffa372;
+}
+
+
+
+
+
+
+
+
+
+
+
